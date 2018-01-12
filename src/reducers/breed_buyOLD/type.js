@@ -1,0 +1,6 @@
+const breedBuyActions = {
+	BREEDBUY_INIT_STATE: "BREEDBUY_INIT_STATE",
+	SET_BREEDBUY_PROPS: "SET_BREEDBUY_PROPS",
+	ON_CHANGE_BREEDBUY: "ON_CHANGE_BREEDBUY",
+}
+export default breedBuyActions

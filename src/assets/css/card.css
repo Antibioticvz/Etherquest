@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Optimus Princeps Semi Bold';
+  src: url('../fonts/OptimusPrincepsSemiBold.ttf');
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+
+
+/* card */
+
+.card {
+  background-image:url('../imgs/card.png');
+  background-repeat:no-repeat;
+}
+
+.card__frame {
+  width: 100%;
+  padding-bottom: 140%;
+  background-size:500%;
+  position:relative;
+}
+
+.card__art {
+  position:absolute;
+  z-index:-10;
+  top:14%;
+  width:90%;
+  right:0;
+  left:0;
+  margin:auto;
+}
+
+/* color */
+
+.card_purple {
+  background-position:0 0;
+}
+
+.card_blue {
+  background-position:25% 0;
+}
+
+.card_red {
+  background-position:50% 0;
+}
+
+.card_green {
+  background-position:75% 0;
+}
+
+.card_bronze {
+  background-position:100% 0;
+}
+
+/* rarity */
+
+.card__rarity {
+  position:absolute;
+  top:4.1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+  background-size:2700%;
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.card__rarity_legendary {
+  background-position:73.30% 72%; /* green */
+}
+
+.card__rarity_epic {
+  background-position:68.85% 72%; /* blue */
+}
+
+.card__rarity_rare {
+  background-position:64.39% 72%; /* purple */
+}
+
+.card__rarity_uncommon {
+  background-position:59.95% 72%; /* gold */
+}
+
+.card__rarity_common-1 {
+  background-position:77.8% 72%;
+}
+
+.card__rarity_common-2 {
+  background-position:77.8% 72%;
+  opacity:0.95
+}
+
+.card__rarity_common-3 {
+  background-position:77.8% 72%;
+  opacity:0.90
+}
+
+.card__rarity_common-4 {
+  background-position:77.8% 72%;
+  opacity:0.85
+}
+
+.card__rarity_common-5 {
+  background-position:77.8% 72%;
+  opacity:0.75
+}
+
+.card__rarity_common-6 {
+  background-position:77.8% 72%;
+  opacity:0.70
+}
+
+.card__rarity_common-7 {
+  background-position:77.8% 72%;
+  opacity:0.65
+}
+
+.card__rarity_common-8 {
+  background-position:77.8% 72%;
+  opacity:0.60
+}
+
+.card__rarity_common-9 {
+  background-position:77.8% 72%;
+  opacity:0.55
+}
+
+.card__rarity_common-10 {
+  background-position:77.8% 72%;
+  opacity:0.50
+}
+
+.card__rarity_common-11 {
+  background-position:77.8% 72%;
+  opacity:0.45
+}
+
+.card__rarity_common-12 {
+  background-position:77.8% 72%;
+  opacity:0.40
+}
+
+.card__rarity_common-13 {
+  background-position:77.8% 72%;
+  opacity:0.39
+}
+
+.card__rarity_common-14 {
+  background-position:77.8% 72%;
+  opacity:0.38
+}
+
+.card__rarity_common-15 {
+  background-position:77.8% 72%;
+  opacity:0.37
+}
+
+.card__rarity_common-16 {
+  background-position:77.8% 72%;
+  opacity:0.36
+}
+
+.card__rarity_common-17 {
+  background-position:77.8% 72%;
+  opacity:0.35
+}
+
+.card__rarity_common-18 {
+  background-position:77.8% 72%;
+  opacity:0.34
+}
+
+.card__rarity_common-19 {
+  background-position:77.8% 72%;
+  opacity:0.33
+}
+
+.card__rarity_common-20 {
+  background-position:77.8% 72%;
+  opacity:0.32
+}
+
+.card__rarity_common-21 {
+  background-position:77.8% 72%;
+  opacity:0.31
+}
+
+.card__rarity_common-22 {
+  background-position:77.8% 72%;
+  opacity:0.30
+}
+
+/* type */
+
+.card__type {
+  position:absolute;
+  top:4.1%;
+  left: 12.5%;
+  
+  background-size:2700%;
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.card__type_magic {
+  background-position:59.55% 84%;
+}
+
+.card__type_melee {
+  background-position:63.25% 84%;
+}
+
+.card__type_range {
+  background-position:67.0% 84%;
+}
+
+/* units */
+
+.card__stats {
+  position:absolute;
+  background-size:2700%;
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.card__stats_mana {
+  top:4.1%;
+  left: 67.9%;
+  background-position-y: 71%;
+}
+
+.card__stats_attack {
+  top:84%;
+  left: 0;
+  right: 0;
+  margin:auto;
+  background-position-y: 80.5%;
+}
+
+.card__stats_hp {
+  top:84%;
+  left: 15.75%;
+  background-position-y: 99.4%;
+}
+
+.card__stats_defense {
+  top:84%;
+  right: 16.75%;
+  background-position-y: 89.94%;
+}
+
+.card__stats_1 {
+  background-position-x: 0;
+}
+
+.card__stats_2 {
+  background-position-x: 4.1%;
+}
+
+.card__stats_3 {
+  background-position-x: 8.13%;
+}
+
+.card__stats_4 {
+  background-position-x: 12.2%;
+}
+
+.card__stats_5 {
+  background-position-x: 16.3%;
+}
+
+.card__stats_6 {
+  background-position-x: 20.35%;
+}
+
+.card__stats_7 {
+  background-position-x: 24.40%;
+}
+
+.card__stats_8 {
+  background-position-x: 28.50%;
+}
+
+.card__stats_9 {
+  background-position-x: 32.60%;
+}
+
+.card__stats_10 {
+  background-position-x: 36.65%;
+}
+
+.card__text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #552a0c;
+}
+
+.card__text_name {
+  font-size: 24px;
+  top: 67.5%;
+  font-family: 'Optimus Princeps Semi Bold', Serif;
+  transform: translateX(-50%) scale(1,1.05);
+}
+
+.card__text_body {
+  text-align: center;
+  font-size: 13px;
+  top: 74.5%;
+  font-family: 'Roboto Condensed', Serif;
+  transform: translateX(-50%) scale(1,1.05);
+}
+
+.ui.card .image>.ribbon.label, .ui.image>.ribbon.label {
+  position: absolute;
+  top: 9rem;
+}

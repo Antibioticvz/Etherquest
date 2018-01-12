@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Etherquest - World's First Decentralized Trading Card Game</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="../src/assets/imgs/favicon.ico">
+
+	<!-- Semantic UI -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="../src/assets/css/main.css">
+
+</head>
+
+<body>
+<div class="body__wrapper">
+
+<!-- Navigation -->
+
+<navbar>
+<div class="ui secondary stackable pointing menu navbar__wrapper">
+  <div class="ui container navbar__content">
+
+    <div class="header item">
+			<a href="#">
+	      <div class="navbar__image-wrapper">
+	        <img src="../src/assets/imgs/logo.png" alt="Etherquest Logo">
+	      </div>
+	  	</a>
+    </div>
+
+    <a class="item" href="#">
+      My Cards
+    </a>
+    <a class="item" href="#">
+      Shop
+    </a>
+    <a class="item" href="#">
+      Duel
+    </a>
+    <a class="item" href="#" target="_blank">
+      Guide
+    </a>
+    <a class="item" href="#" target="_blank">
+      Blog
+    </a>
+
+    <div class="right menu navbar__right-menu">
+      <div class="navbar__popup-btn">
+      	<a class="ui item">
+          Your Metamask/Mist is not connected <i class="warning sign icon"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</navbar>
+
+<!-- Content -->
+
+<div class="item-page__wrapper ui container">
+  <div class="ui centered grid item-page__details">
+
+    <!-- Big Card -->
+
+    <div class="four wide computer eight wide tablet sixteen wide mobile column">
+      <item-card info="item">
+        <div class="item-card__wrapper ui link card">
+          <img class="card-image" src="../src/assets/imgs/cards/7.png">
+        </div>
+      </item-card>
+    </div>
+
+    <!-- Description Box -->
+
+    <div class="ten wide computer sixteen wide mobile column">
+
+      <!-- Stats Box -->
+
+      <div class="row item-page__stats">
+        <div class="ui centered four column grid">
+
+          <!-- Price -->
+
+          <div class="ui column tiny statistic">
+            <div class="label">
+              PRICE
+            </div>
+            <div class="value">
+              0.7702
+            </div>
+          </div>
+
+          <!-- Time Left -->
+
+          <div class="ui column tiny statistic">
+            <div class="label">
+              TIME LEFT
+            </div>
+            <div class="value">
+              23H
+            </div>
+          </div>
+
+          <!-- Rarity -->
+
+          <div class="ui column tiny statistic">
+            <div class="label">
+              RARITY
+            </div>
+            <div class="value">
+              LEGENDARY
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- End Stats Box -->
+
+      <!-- Description Bullet Points -->
+
+      <div class="row item-page__description">
+        <div class="ui bulleted list">
+          <div class="item">Mana Cost: 8</div>
+          <div class="item">HP: 10 / Attack: 9 / Defense: 5</div>
+          <div class="item">When Grudy hits a minion, it causes an Earthquake, dealing 2 damages to all minions.</div>
+        </div>
+      </div>
+
+      <!-- Buy Button -->
+
+      <div class="row ui form item-page__buy">
+        <div class="field">
+          <div class="buy-button ui black basic button"">Buy Now</div>
+          <p class="buy-warning-label">Warning: Do not send Ether from an exchange's address.</p>
+        </div>
+      </div>
+
+      <!-- Etymology -->
+
+      <div class="ui centered two column grid form item-page__relatives">
+
+        <!-- Origin -->
+
+        <div class="column ui centered">
+          <h3 class="item-page__etymology">Origins</h3>
+          <div class="item-page__icon">
+            <div class="item-pave__img-wrapper item-card__bg1">
+              <a href="#"><img class="etymology-card" src="../src/assets/imgs/cards/2.png"></a>
+              <a href="#"><img class="etymology-card" src="../src/assets/imgs/cards/7.png"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Derivations -->
+
+        <div class="column">
+          <h3 class="item-page__etymology">Derivations</h3>
+          <div class="item-page__icon">
+            <a href="#"><img class="etymology-card" src="../src/assets/imgs/cards/1.png"></a>
+            <a href="#"><img class="etymology-card" src="../src/assets/imgs/cards/7.png"></a>
+          </div>
+        </div>
+
+      </div> <!-- End Etomology -->
+
+    </div> <!-- End Description -->
+
+  </div>
+</div> <!-- End Content -->
+
+<!-- Footer -->
+
+<footer>
+<div class="footer__wrapper">
+  
+  <div class="ui container footer__content">
+
+    <div class="row footer__contact">
+      <a href="#" target="_blank"><i class="facebook square icon"></i></a>
+      <a href="#" target="_blank"><i class="twitter square icon"></i></a>
+      <a href="#" target="_blank"><i class="reddit square icon"></i></a>
+      <a href="#" target="_blank"><i class="medium icon"></i></a>
+      <a href="mailto:#" target="_top"><i class="mail icon"></i></a>
+    </div>
+
+    <div class="row footer__quote">
+      All trademarks referenced herein are the properties of their respective owners.
+    </div>
+
+    <div class="row footer__copyrights">
+      © Etherquest. All Rights Reserved.
+    </div>
+
+  </div>
+
+</div>
+</footer>
+
+</div> <!-- End Body Wrapper -->
+</body>
+</html>

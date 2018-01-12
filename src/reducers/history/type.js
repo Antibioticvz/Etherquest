@@ -1,0 +1,7 @@
+export const historyActions = {
+	HISTORY_INIT_STATE: 						"HISTORY_INIT_STATE",
+	SET_HISTORY_CARDS:							"SET_HISTORY_CARDS",
+	SET_HISTORY_CARDS_TO_SHOW:			"SET_HISTORY_CARDS_TO_SHOW",
+	ON_CHANGE_HISTORY: 						  "ON_CHANGE_HISTORY",
+}
+export default historyActions
